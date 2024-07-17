@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+navbar {
+  color: white;
+}
+
+.custom-navbar {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: white;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+#quienes-somos {
+  background-color: black;
+  color: white;
+}
+
+#quienes-somos i {
+  margin-bottom: 10px;
+  color: white;
+}
+
+#destacados .card {
+  margin-bottom: 20px;
+  background-color: aqua;
+}
+
+#p-5 {
+  background-color: black;
+  color: white;
+}
+
+footer {
+  background-color: aqua;
+  color: white;
+}
+
+footer .social-icons a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}

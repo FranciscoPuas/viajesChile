@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viajes Chile</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Viajes Chile</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#quienes-somos">¿Quiénes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destacados">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/alp.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/torres.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/img/villarica.jpeg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section id="quienes-somos" class="p-5 text-center">
+      <div class="container">
+        <h2>¿Quiénes somos?</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fas fa-globe fa-2x"></i>
+            <p>
+              Exploradores de fronteras cósmicas, conectando a aventureros con
+              destinos más allá de la Tierra. Descubre nuevas galaxias con
+              nosotros.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-plane fa-2x"></i>
+            <p>
+              Ofrecemos viajes intergalácticos personalizados, tours por
+              planetas alienígenas y experiencias únicas en el espacio profundo.
+              ¡Aventura y descubrimiento asegurados!
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            <p>
+              Basados en Santiago, Chile, pero operamos en todo el sistema solar
+              y más allá. ¡Tu próximo viaje alienígena comienza aquí!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="destacados" class="p-5 bg-black text-white">
+      <div class="container">
+        <h2 class="text-center">Destacados</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./assets/img/osorno.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Osorno</h5>
+                <p class="card-text">Descripción del destacado 1.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./assets/img/villarica.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Villarica</h5>
+                <p class="card-text">Descripción del destacado 2.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img src="./assets/img/alp.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Atacama</h5>
+                <p class="card-text">Descripción del destacado 3.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card">
+              <img
+                src="./assets/img/torres.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Torres del Paine</h5>
+                <p class="card-text">Descripción del destacado 4.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contacto"
+      class="p-5"
+      style="background-color: black; color: white"
+    >
+      <div class="container">
+        <h2 class="text-center">Contacto</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" required />
+          </div>
+          <div class="mb-3">
+            <label for="asunto" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="asunto" required />
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="custom-footer text-center p-3">
+      <div class="container">
+        <p>VIAJES CHILE</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
