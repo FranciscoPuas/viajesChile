@@ -25,17 +25,18 @@ Uso
 Abre el archivo index.html en tu navegador web favorito.
 
 ## Características
-Navbar Sticky: La barra de navegación permanece en la parte superior al desplazarse.
-Carousel: Un carrusel de imágenes en la parte superior de la página.
-Sección "¿Quiénes somos?": Información sobre la empresa con iconos representativos.
-Sección "Destacados": Destinos destacados con imágenes y descripciones.
-Formulario de Contacto: Un formulario sencillo para que los usuarios puedan enviar mensajes.
-Footer: Información de contacto y enlaces a redes sociales.
-Personalización
+Navbar Sticky: La barra de navegación permanece en la parte superior al desplazarse.  
+Carousel: Un carrusel de imágenes en la parte superior de la página.  
+Sección "¿Quiénes somos?": Información sobre la empresa con iconos representativos.  
+Sección "Destacados": Destinos destacados con imágenes y descripciones.  
+Formulario de Contacto: Un formulario sencillo para que los usuarios puedan enviar mensajes.  
+Footer: Información de contacto y enlaces a redes sociales.  
+
+## Personalización
 Puedes personalizar las imágenes y el contenido del proyecto:
 
-Reemplaza las imágenes en assets/img/ por tus propias imágenes.
-Modifica el contenido en index.html según sea necesario.
+Reemplaza las imágenes en assets/img/ por tus propias imágenes.  
+Modifica el contenido en index.html según sea necesario.  
 
 ## Créditos
 Este proyecto fue desarrollado usando:
