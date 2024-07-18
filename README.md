@@ -13,27 +13,6 @@
 - jQuery
 - Font Awesome
 
-## Estructura del Proyecto
-
-Viajes Chile/
-│
-├── assets/
-│ ├── css/
-│ │ └── style.css
-│ ├── img/
-│ │ ├── carousel1.jpg
-│ │ ├── carousel2.jpg
-│ │ ├── carousel3.jpg
-│ │ ├── card1.jpg
-│ │ ├── card2.jpg
-│ │ ├── card3.jpg
-│ │ └── card4.jpg
-│ └── js/
-│ └── script.js
-│
-├── index.html
-└── README.md
-
 
 ## Instalación
 
