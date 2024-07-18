@@ -6,10 +6,6 @@ body {
   font-weight: bold;
 }
 
-navbar {
-  color: white;
-}
-
 .custom-navbar {
   background-color: transparent;
   transition: background-color 0.5s ease;
@@ -22,6 +18,10 @@ navbar {
 
 .custom-navbar .nav-link:hover {
   color: #f8f9fa;
+}
+
+.custom-navbar.scrolled {
+  background-color: #343a40;
 }
 
 .carousel-item img {
@@ -44,7 +44,7 @@ navbar {
   background-color: aqua;
 }
 
-#p-5 {
+#contacto {
   background-color: black;
   color: white;
 }
@@ -68,4 +68,10 @@ footer .social-icons a {
 .icon {
   background-color: aqua;
   padding-top: 5px;
+}
+
+@media (max-width: 767px) {
+  #quienes-somos .col-md-4 {
+    display: none;
+  }
 }
