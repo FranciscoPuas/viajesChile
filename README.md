@@ -24,7 +24,7 @@
 Uso
 Abre el archivo index.html en tu navegador web favorito.
 
-##Características
+## Características
 Navbar Sticky: La barra de navegación permanece en la parte superior al desplazarse.
 Carousel: Un carrusel de imágenes en la parte superior de la página.
 Sección "¿Quiénes somos?": Información sobre la empresa con iconos representativos.
@@ -37,7 +37,7 @@ Puedes personalizar las imágenes y el contenido del proyecto:
 Reemplaza las imágenes en assets/img/ por tus propias imágenes.
 Modifica el contenido en index.html según sea necesario.
 
-##Créditos
+## Créditos
 Este proyecto fue desarrollado usando:
 
 Bootstrap
