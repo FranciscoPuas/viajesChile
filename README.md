@@ -1,40 +1,68 @@
-# Viajes Chile Landing Page
+# Viajes Chile
 
-Esta es una página de destino para la agencia de viajes "Viajes Chile". La página incluye una barra de navegación, un carrusel de imágenes, secciones de presentación y destacados, un formulario de contacto y un pie de página con enlaces a redes sociales.
+## Descripción
 
-## Estructura del Proyecto
-
-- **index.html**: Archivo principal de la página.
-- **assets/**
-  - **css/**: Carpeta que contiene los archivos CSS.
-    - **style.css**: Estilos personalizados de la página.
-  - **img/**: Carpeta que contiene las imágenes usadas en la página.
+**Viajes Chile** es una página web de una agencia de viajes ficticia. Esta web ofrece información sobre la empresa, los destinos destacados y una forma de contacto. Está diseñada para ser responsive, utilizando Bootstrap 5, CSS y JavaScript.
 
 ## Tecnologías Utilizadas
 
 - HTML5
 - CSS3
 - Bootstrap 5
+- JavaScript (ES6+)
+- jQuery
 - Font Awesome
-- Google Fonts
 
-## Estructura HTML
+## Estructura del Proyecto
 
-La estructura principal de la página está definida en el archivo `index.html`, que incluye las siguientes secciones:
+Viajes Chile/
+│
+├── assets/
+│ ├── css/
+│ │ └── style.css
+│ ├── img/
+│ │ ├── carousel1.jpg
+│ │ ├── carousel2.jpg
+│ │ ├── carousel3.jpg
+│ │ ├── card1.jpg
+│ │ ├── card2.jpg
+│ │ ├── card3.jpg
+│ │ └── card4.jpg
+│ └── js/
+│ └── script.js
+│
+├── index.html
+└── README.md
 
-1. **Barra de Navegación**: Barra de navegación fija en la parte superior con enlaces a diferentes secciones de la página.
-2. **Carrusel**: Carrusel de imágenes destacadas.
-3. **¿Quiénes somos?**: Sección de presentación con íconos y descripciones.
-4. **Destacados**: Sección que muestra cuatro tarjetas (cards) con imágenes e información.
-5. **Contacto**: Formulario de contacto.
-6. **Pie de Página**: Pie de página con enlaces a redes sociales.
 
-## Instrucciones para Ejecutar el Proyecto
+## Instalación
 
-1. Clona el repositorio o descarga los archivos del proyecto.
-2. Asegúrate de que la estructura de directorios se mantenga igual a la descrita anteriormente.
-3. Abre el archivo `index.html` en tu navegador web para ver la página.
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/tuusuario/viajes-chile.git
+2. Navega al directorio del proyecto:
+   cd viajes-chile
+Uso
+Abre el archivo index.html en tu navegador web favorito.
 
-## Personalización de la Página
+##Características
+Navbar Sticky: La barra de navegación permanece en la parte superior al desplazarse.
+Carousel: Un carrusel de imágenes en la parte superior de la página.
+Sección "¿Quiénes somos?": Información sobre la empresa con iconos representativos.
+Sección "Destacados": Destinos destacados con imágenes y descripciones.
+Formulario de Contacto: Un formulario sencillo para que los usuarios puedan enviar mensajes.
+Footer: Información de contacto y enlaces a redes sociales.
+Personalización
+Puedes personalizar las imágenes y el contenido del proyecto:
 
-### Cambiar el Color de Fondo y Fuente del Pie de Página
+Reemplaza las imágenes en assets/img/ por tus propias imágenes.
+Modifica el contenido en index.html según sea necesario.
+
+##Créditos
+Este proyecto fue desarrollado usando:
+
+Bootstrap
+Font Awesome
+Google Fonts
+Contribuciones
+Las contribuciones son bienvenidas. Si deseas contribuir, por favor abre un issue o envía un pull request.
